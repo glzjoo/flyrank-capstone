@@ -27,6 +27,17 @@ npm run dev
 
 Then open http://localhost:5173.
 
+## Project structure
+
+```text
+src/
+  main.tsx        App entry point
+  App.tsx         Root component
+  assets/         Images and SVGs imported by components
+  components/     One component per file, PascalCase (added as features land)
+public/           Static files served as-is
+```
+
 ## Scripts
 
 | Command | What it does |
